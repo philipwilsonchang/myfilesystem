@@ -1,0 +1,17 @@
+Philip Chang
+MPCS 52030 - Operating Systems
+Project 3
+
+Instructions:
+
+	- Compile with:
+		$ make
+	- Recompile via:
+		$ make clean
+		$ make
+	
+
+Bugs:
+	- Incomplete directory structure implementation
+	- Unlinking behavior bizarre - unlinks inodes earlier than found inodes with correct name
+	- Partially working timeouts - no retrying function implemented
